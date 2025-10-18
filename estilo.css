@@ -1,0 +1,114 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+    padding-top: 80px;
+}
+
+main section {
+    background-color: var(--cor-secundaria);
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: var(--borda-raio);
+    box-shadow: var(--sombra-escura), var(--sombra-clara);
+    transition: transform 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: #1a1a1a;
+    --cor-secundaria: #6db2f357;
+    --cor-principal: #ff05ac;
+    --cor-texto-claro: #f0f0f0;
+    --cor-texto-secundario: #f8057f;
+    --cor-texto-primario: #ff05ac;
+    --borda-raio: 15px;
+    --sombra-clara: -7px -7px 15px rgba(255, 255, 255, 0.05);
+    --sombra-escura: 7px 7px 15px rgba(0, 0, 0, 0.5);
+    --fonte-titulo: 'Noto Sans', sans-serif;
+    --fonte-corpo: 'Lato', sans-serif;
+}
+
+p {
+    color: var(--cor-texto-primario);
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+h4 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-principal);
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(190, 66, 169, 0.5);
+}
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+ul {
+    display: flex
+;
+    list-style-type: none;
+    gap: 20px;
+}
+
+a {
+    color: var(--cor-texto-claro);
+    text-decoration: none;
+    transition: all 0.6s 
+ease;
+    font-weight: 750;
+}
+
+nav ul li a {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-claro);
+    padding: 10px 20px;
+    border-radius: var(--borda-raio);
+    box-shadow: var(--sombra-escura);
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+nav {
+    display: flex
+;
+    justify-content: center;
+    background-color: var(--cor-secundaria);
+    border-radius: var(--borda-raio);
+    margin-bottom: 40px;
+    padding: 15px;
+    box-shadow: var(--sombra-escura), var(--sombra-clara);
+}
+
+h3 {
+    color: var(--cor-texto-secundario);
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover{
+    background-color: var(--cor-principal);
+    color: var(var(--cor-fundo));
+}
