@@ -133,33 +133,34 @@ section {
     unicode-bidi: isolate;
 }
 
-.filme{
+.filme {
     display:flex;
     justify-content: center;
 
 }
 
-.livro{
+.livro {
     display:flex;
     justify-content: center;
     transition: transform 0.5s ease;
 }
 
-.sobre{
+.sobre {
     display:flex;
     justify-content: center ;
     transition: transform 0.5s ease;
 }
 
-.gif{
+.gif {
     display:flex;
     justify-content:center;
 }
 
-.sobre:hover{
+.sobre:hover {
     transform: translateX(-15px);
 }
 
 .livro:hover{
     transform:translateY(-15px);
 }
+
